@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json" />
+<script
+  async
+  src="https://unpkg.com/pwacompat"
+  crossorigin="anonymous"></script>
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+
+        <header>
+
+            <h2 id="app-name">Weather App</h2>
+            <p style="font-style: italic; font-size: 0.7rem;">Designed by Emmanuel wisdom</p>
+            
+           
+        </header>
+
+        <div class="search">
+            <input type="text" class="search-box" placeholder="enter a city.." required>
+        </div>
+    
+        <section class="location">
+            <p id="city" class="city">-, --</p>
+            <p class="date">dd -- mm yyyy</p>
+            <div class="current">
+                <p class="temperature">-°c</p>
+                <p class="description">-</p>
+            </div>
+        </section>
+
+        <section id="others">
+            <div class="other-data" style="text-align: left;">
+                <div class="longitude">Longitude: -°c</div>
+                <div class="pressure">Pressure:-Pa</div>
+            </div>
+            <div class="line" ></div>
+            <div class="other-data" style="text-align: right;">
+                <div class="latitude" >Latitude: -°c</div>
+                <div class="humidity">humidity: -g.kg-1</div>
+            </div>
+        </section>
+
+            
+
+    </div>
+   <script src="main.js"></script>
+</body>
+</html>

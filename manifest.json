@@ -1,0 +1,13 @@
+{
+    "name": "Wiz Weather App",
+    "short_name": "WeatherApp",
+    "description": "Weather, Forecast",
+    "start_url": "/?homescreen=1",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [{
+      "src": "icon.png",
+      "sizes": "500x500",
+      "type": "image/png"
+    }]
+  }
